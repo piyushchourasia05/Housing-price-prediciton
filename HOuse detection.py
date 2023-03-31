@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import random
-
+#the data tha we are using or the name of the cvv file along with its location
 df = pd.read_csv("USA_Housing.csv")
 
 df = df.iloc[:,:-1]
